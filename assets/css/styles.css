@@ -1297,7 +1297,7 @@ footer {
   flex-shrink: 0;
 }
 
-/* Gift Certificate Page (gift-certificad.html) */
+/* Gift Certificate Page (gift-certificate/index.html) */
 .gift-selection-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
