@@ -1246,9 +1246,10 @@ footer {
 }
 
 .special-card-header {
-  background-color: var(--dark);
+  background-color: #92a275; /* Olive green */
   color: var(--white);
   padding: 30px 20px;
+  position: relative;
 }
 
 .special-card-header h3 {
@@ -1256,6 +1257,20 @@ footer {
   font-size: 1.4rem;
   margin-bottom: 8px;
   font-family: var(--font-serif);
+}
+
+.ribbon {
+  position: absolute;
+  top: 15px;
+  right: -35px;
+  background: var(--primary);
+  color: var(--white);
+  padding: 5px 40px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  transform: rotate(45deg);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
 }
 
 .special-price-tag {
